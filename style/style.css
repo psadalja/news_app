@@ -4,7 +4,12 @@
 }
 
 .nav {
+  background-color: burlywood;
   display: flex;
+}
+
+.app-title {
+  margin-left: 10px;
 }
 
 .app-title {
@@ -15,17 +20,24 @@
 .search-input {
   background-color: blanchedalmond;
   margin-top: 10px;
-  margin-left: 30%;
-  width: 200%;
+  margin-left: 17%;
+  width: 150%;
+}
+
+.search {
+  background-color: burlywood;
+  padding-right: 17%;
 }
 
 .nav li {
-  display: inline-flex;
+  display: inline-block;
   margin-top: 10px;
+  margin-left: 30%;
   padding-left: 10px;
 }
 
 .categories-list {
   display: inline-flex;
-  padding-left: 200%;
+  width: 30%;
+  float: right;
 }
