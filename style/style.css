@@ -6,3 +6,26 @@
 .nav {
   display: flex;
 }
+
+.app-title {
+  margin-top: 10px;
+  width: 30%;
+}
+
+.search-input {
+  background-color: blanchedalmond;
+  margin-top: 10px;
+  margin-left: 30%;
+  width: 200%;
+}
+
+.nav li {
+  display: inline-flex;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.categories-list {
+  display: inline-flex;
+  padding-left: 200%;
+}
