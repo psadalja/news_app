@@ -6,38 +6,31 @@
 .nav {
   background-color: burlywood;
   display: flex;
-}
-
-.app-title {
-  margin-left: 10px;
-}
-
-.app-title {
-  margin-top: 10px;
-  width: 30%;
-}
-
-.search-input {
-  background-color: blanchedalmond;
-  margin-top: 10px;
-  margin-left: 17%;
-  width: 150%;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  padding: 0 10px;
 }
 
 .search {
-  background-color: burlywood;
-  padding-right: 17%;
+  width: 40%;
 }
 
-.nav li {
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 30%;
-  padding-left: 10px;
+.search-input {
+  width: 100%;
+}
+
+.news-categories {
+  width: 30%;
 }
 
 .categories-list {
-  display: inline-flex;
-  width: 30%;
-  float: right;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
 }
