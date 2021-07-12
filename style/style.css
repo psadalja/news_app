@@ -25,13 +25,11 @@
 }
 
 .categories-list {
-  text-decoration: none;
   display: flex;
   justify-content: space-between;
 }
 
 .list {
-  text-decoration: none;
   list-style: none;
   cursor: pointer;
 }
