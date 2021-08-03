@@ -7,8 +7,10 @@
   background-color: burlywood;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /*space-between is used for equal space b/w all div*/
   height: 5vh;
+  /*space-between is used for equal space b/w all div*/
+  align-items: center;
   padding: 0 10px;
 }
 
@@ -32,4 +34,29 @@
 .list {
   list-style: none;
   cursor: pointer;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  /* border: 2px solid black; */
+  height: 100vh;
+}
+
+.news-feed {
+  border: 2px solid black;
+  height: 50vh;
+  width: 50vh;
+}
+
+.news-image {
+  border: 2px solid blue;
+  height: 25vh;
+}
+
+.news-intro {
+  border: 2px solid red;
+  height: 20vh;
 }
