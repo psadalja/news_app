@@ -42,21 +42,22 @@
   align-items: center;
   border: 2px solid black;
   /* border: 2px solid black; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .news-feed {
   border: 2px solid black;
-  height: 50vh;
-  width: 50vh;
+  height: 500px;
+  width: 350px;
 }
 
 .news-image {
   border: 2px solid blue;
-  height: 25vh;
+  font-size: 100px;
+  /* height: 25vh; */
 }
 
 .news-intro {
   border: 2px solid red;
-  height: 20vh;
+  /* height: 20vh; */
 }
